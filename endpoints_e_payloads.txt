@@ -1,0 +1,20 @@
+localhost:8080/SecureAPI/v1/auth/login (POST)
+{
+    "login": "admin",
+    "password"admin"
+}
+
+localhost:8080/SecureAPI/v1/usuario (CRUD)
+{
+    "login": "teste",
+    "nome": "TESTE",
+    "senha": "teste",
+    "administrador": false
+}
+
+localhost:8080/SecureAPI/v1/menu (GET)
+localhost:8080/SecureAPI/v1/menu/permitidos (GET) --> itens permitidos no menu
+
+localhost:8080/SecureAPI/v1/permissaousuario/1 (GET) --> permissoes do usuario
+localhost:8080/SecureAPI/v1/permissaousuario/adicionar/1/1 (POST) --> adiciona permissao
+localhost:8080/SecureAPI/v1/permissaousuario/remover/1/1 (DELETE) --> remove permissao
